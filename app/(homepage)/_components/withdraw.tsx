@@ -25,7 +25,7 @@ const Withdraw = () => {
         <ul className="flex flex-wrap items-center justify-center gap-1 md:w-4/5">
           {LogoClouds?.slice(0, 6)?.map((item, index) => (
             <li key={index} className="group">
-              <figure className="h-10 rounded-lg p-2 transition duration-300 group-hover:bg-slate-50 md:h-14 md:p-4">
+              <figure className="h-10 rounded-lg p-2 transition duration-300 group-hover:bg-slate-50 md:h-14 md:p-3">
                 <Image
                   src={`https://img.logoipsum.com/2${item.image}.svg`}
                   alt={item.image.toString()}
